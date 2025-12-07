@@ -318,81 +318,95 @@ I made a mistake during this module when trying to set special permissions. I mi
 ---
 
 ## Objective
-Learn how to create, remove, copy, rename, and find files and directories within the Linux filesystem.
+Learn how to set, unset, promote, and demote shell and environment variables, and how to make environment variables persistent across sessions.
 
 ---
 
 ## Summary
-This module explained how to navigate the Linux filesystem and operate on files and directories. I practiced creating files and directories, removing them, copying and moving them, and searching for them using powerful command line tools. This is a foundational skill for working effectively in Linux.
+This module introduced shell variables and environment variables, how they differ, and how they are used. I learned how to set and list variables, export them to child processes, unset them, and make them persistent through configuration files. I also practiced appending to the PATH variable and creating a configuration file in `/etc/profile.d`.
 
 ---
 
 ## Tasks Completed
-- Created files and directories  
-- Removed files and directories  
-- Copied and moved files and folders  
-- Renamed files and directories  
-- Searched for files using different criteria  
-- Searched for text patterns within files  
+- Listed shell and environment variables  
+- Retrieved values using `set`, `printenv`, and `grep`  
+- Created new shell and environment variables  
+- Unset variables using `unset`  
+- Promoted and demoted variables with `export`  
+- Appended a path to the PATH variable  
+- Created a persistent environment variable file in `/etc/profile.d`  
 
 ---
 
 ## Commands Used
-- `touch`  
-- `mkdir`  
-- `ls -l`  
-- `rm` / `rm -r`  
-- `rmdir`  
-- `mv`  
-- `cp` / `cp -r`  
-- `find`  
-- `grep -r`  
+- `set`  
+- `set | more`  
+- `set | grep`  
+- `printenv`  
+- `export`  
+- `unset`  
+- `nano`  
+- `sudo`  
 
 ---
 
 ## Concepts / Notes
 
-### Creating Files and Directories
-- `touch filename` creates an empty file  
-- `mkdir dirname` creates a directory  
-- `ls -l` lists files in long format  
+### Shell Variables
+- Short-term: only exist in the current shell
+- Not inherited by child processes
+  
+### Environment Variables
+- Inherited by child shells and processes  
+- Used to pass system information
 
-### Removing Files and Directories
-- `rm file` removes a file  
-- `rm -r dir` removes a directory with its contents  
-- `rmdir dir` removes an **empty** directory  
+Common examples:
+- `SHELL`
+- `USER`
+- `HOME`
+- `PWD`
+- `OLDPWD`
+- `PATH`
+- `_` (last executed command)
+  
+### Persistent Environment Variables
+To persist across shell sessions, use:
 
-> 💡 **-r is recursive. I need to remember this for deleting full directories.**
+User-specific:
+- `~/.bashrc`
+- `~/.bash_profile`
+- `~/.profile`
 
-### Copying and Moving
-- `mv source dest` moves or renames  
-- `cp source dest` copies  
-- `cp -r sourcedir dest` copies directories recursively  
+System-wide:
+- `/etc/environment`
+- `/etc/profile`
+- `/etc/profile.d/*.sh`
 
-### Finding Files and Directories
-- `find /path -name "pattern"`  
-- `find /path -type f` for files  
-- `find /path -type d` for directories  
-- `find /path -perm 644` for permissions  
+---
 
-### Searching Inside Files
-- `grep pattern filename`  
-- `grep -r pattern /path` searches recursively  
+## Tasks Completed
+- Listed shell and environment variables
+- Retrieved specific values with `grep` and `printenv`
+- Created new shell variables
+- Promoted variables to environment variables with `export`
+- Demoted environment variables using `export -n`
+- Unset variables using `unset`
+- Appended a directory to the PATH variable
+- Created a persistent environment variable file in `/etc/profile.d`
 
 ---
 
 ## Key Takeaways
-- File and directory management is a core Linux skill  
-- `touch` and `mkdir` create files and folders  
-- `rm` removes files and `rm -r` removes directories  
-- `mv` can move or rename  
-- `cp -r` copies entire directory trees  
-- `find` and `grep` are powerful tools for searching  
+- Shell variables are temporary; environment variables are inherited  
+- `export` promotes shell variables to environment variables  
+- `unset` removes variables  
+- Persistent variables require editing user or system config files  
+- Appending to PATH allows executables to be found from any directory  
+- Nano is useful for creating configuration files  
 
 ---
 
 ## Reflection
-I feel more confident creating, modifying, and deleting files and directories. The part I struggle with is remembering to add `-r` when removing or copying directories. I know I will probably make this mistake in the future, but repetition will help. Every time I run into the problem, it will reinforce the habit. Learning these basics makes navigating Linux much easier and I can already see how these skills will help in real systems.
-
+This module required more attention, especially when creating a persistent environment variable in `/etc/profile.d`. I had to remember how to open and edit files in nano, and how to place the full export command inside the file. This actually took more time than I expected. One thing I really appreciate about the Linux Core Pathway in RangeForce is that if I truly get stuck and have exhausted all hints, they allow me to see the solution. I was never completely stuck. I could always eventually find an answer. This helped reinforce how environment variables work and why persistence matters. Working through this made me feel more comfortable with PATH, exporting variables, and using nano in real situations.
 
 ---
