@@ -10,7 +10,7 @@ This file contains lab reflections and notes from the RangeForce Linux Core curr
 
 ---
 
-# Module: CLI Introduction
+# Module 1: CLI Introduction
 
 > **Platform:** RangeForce – Linux Core Pathway 
 > **Date:** 12-01-2025
@@ -74,7 +74,7 @@ This module helped me get comfortable using the terminal and navigating the file
 
 # Module 2: Basic Linux File Editing
 
-> **Platform:** RangeForce – Linux Core Pathway  
+> **Platform:** RangeForce – Linux Core Pathway 
 > **Date:** 12-01-2025
 
 ---
@@ -124,3 +124,91 @@ date
 
 ## Reflection
 This module helped me gain a better understanding of file editing on the command line. I enjoyed creating and modifying files. Redirecting output still feels strange, but I can tell it will get easier with more practice. I can already see how these skills will be useful for notes, logs, and quick edits while working in Linux.
+---
+
+# Module 3: Linux File Management
+
+> **Platform:** RangeForce – Linux Core Pathway 
+> **Date:** 12-02-2025
+
+---
+
+## Objective
+Learn how to create, remove, copy, rename, and find files and directories within the Linux filesystem.
+
+---
+
+## Summary
+This module explained how to navigate the Linux filesystem and operate on files and directories. I practiced creating files and directories, removing them, copying and moving them, and searching for them using powerful command line tools. This is a foundational skill for working effectively in Linux.
+
+---
+
+## Tasks Completed
+- Created files and directories  
+- Removed files and directories  
+- Copied and moved files and folders  
+- Renamed files and directories  
+- Searched for files using different criteria  
+- Searched for text patterns within files  
+
+---
+
+## Commands Used
+- `touch`  
+- `mkdir`  
+- `ls -l`  
+- `rm` / `rm -r`  
+- `rmdir`  
+- `mv`  
+- `cp` / `cp -r`  
+- `find`  
+- `grep -r`  
+
+---
+
+## Concepts / Notes
+
+### Creating Files and Directories
+- `touch filename` creates an empty file  
+- `mkdir dirname` creates a directory  
+- `ls -l` lists files in long format  
+
+### Removing Files and Directories
+- `rm file` removes a file  
+- `rm -r dir` removes a directory with its contents  
+- `rmdir dir` removes an **empty** directory  
+
+> 💡 **-r is recursive. I need to remember this for deleting full directories.**
+
+### Copying and Moving
+- `mv source dest` moves or renames  
+- `cp source dest` copies  
+- `cp -r sourcedir dest` copies directories recursively  
+
+### Finding Files and Directories
+- `find /path -name "pattern"`  
+- `find /path -type f` for files  
+- `find /path -type d` for directories  
+- `find /path -perm 644` for permissions  
+
+### Searching Inside Files
+- `grep pattern filename`  
+- `grep -r pattern /path` searches recursively  
+
+---
+
+## Key Takeaways
+- File and directory management is a core Linux skill  
+- `touch` and `mkdir` create files and folders  
+- `rm` removes files and `rm -r` removes directories  
+- `mv` can move or rename  
+- `cp -r` copies entire directory trees  
+- `find` and `grep` are powerful tools for searching  
+
+---
+
+## Reflection
+I feel more confident creating, modifying, and deleting files and directories. The part I struggle with is remembering to add `-r` when removing or copying directories. I know I will probably make this mistake in the future, but repetition will help. Every time I run into the problem, it will reinforce the habit. Learning these basics makes navigating Linux much easier and I can already see how these skills will help in real systems.
+
+
+---
