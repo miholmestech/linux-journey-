@@ -214,10 +214,10 @@ I feel more confident creating, modifying, and deleting files and directories. T
 
 ---
 
-# Module 5: Linux Environment Variables 
+# Module 4: Linux File Permissions and Ownership 
 
 > **Platform:** RangeForce – Linux Core 1 Pathway         
-> **Date:** 12-03-2025
+> **Date:** 12-02-2025
 
 ---
 
@@ -310,10 +310,10 @@ Prevents users from deleting files they do not own in a shared directory.
 I made a mistake during this module when trying to set special permissions. I mixed up `chown` and `chmod`, which changed the file owner instead of applying setUID. This error turned into a really helpful learning moment. It showed me that ownership and permissions are not the same thing, and they require different commands. Now that I understand the difference more clearly, I feel more confident that I can fix it whenever it comes up again.
 
 ---
-# Module 3: Linux File Management
+# Module 5: Linux Environment Variables
 
 > **Platform:** RangeForce – Linux Core 1 Pathway        
-> **Date:** 12-02-2025
+> **Date:** 12-03-2025
 
 ---
 
