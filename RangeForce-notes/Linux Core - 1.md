@@ -12,7 +12,7 @@ This file contains lab reflections and notes from the RangeForce Linux Core curr
 
 # Module 1: CLI Introduction
 
-> **Platform:** RangeForce – Linux Core Pathway 
+> **Platform:** RangeForce – Linux Core Pathway        
 > **Date:** 12-01-2025
 
 ---
@@ -74,7 +74,7 @@ This module helped me get comfortable using the terminal and navigating the file
 
 # Module 2: Basic Linux File Editing
 
-> **Platform:** RangeForce – Linux Core Pathway 
+> **Platform:** RangeForce – Linux Core Pathway     
 > **Date:** 12-01-2025
 
 ---
@@ -128,7 +128,7 @@ This module helped me gain a better understanding of file editing on the command
 
 # Module 3: Linux File Management
 
-> **Platform:** RangeForce – Linux Core Pathway 
+> **Platform:** RangeForce – Linux Core Pathway        
 > **Date:** 12-02-2025
 
 ---
