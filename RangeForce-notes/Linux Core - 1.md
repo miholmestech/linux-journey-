@@ -214,10 +214,10 @@ I feel more confident creating, modifying, and deleting files and directories. T
 
 ---
 
-# Module 4: Linux File Permissions and Ownership
+# Module 5: Linux Environment Variables 
 
-> **Platform:** RangeForce – Linux Core 1 Pathway        
-> **Date:** 12-02-2025
+> **Platform:** RangeForce – Linux Core 1 Pathway         
+> **Date:** 12-03-2025
 
 ---
 
@@ -308,5 +308,91 @@ Prevents users from deleting files they do not own in a shared directory.
 
 ## Reflection
 I made a mistake during this module when trying to set special permissions. I mixed up `chown` and `chmod`, which changed the file owner instead of applying setUID. This error turned into a really helpful learning moment. It showed me that ownership and permissions are not the same thing, and they require different commands. Now that I understand the difference more clearly, I feel more confident that I can fix it whenever it comes up again.
+
+---
+# Module 3: Linux File Management
+
+> **Platform:** RangeForce – Linux Core 1 Pathway        
+> **Date:** 12-02-2025
+
+---
+
+## Objective
+Learn how to create, remove, copy, rename, and find files and directories within the Linux filesystem.
+
+---
+
+## Summary
+This module explained how to navigate the Linux filesystem and operate on files and directories. I practiced creating files and directories, removing them, copying and moving them, and searching for them using powerful command line tools. This is a foundational skill for working effectively in Linux.
+
+---
+
+## Tasks Completed
+- Created files and directories  
+- Removed files and directories  
+- Copied and moved files and folders  
+- Renamed files and directories  
+- Searched for files using different criteria  
+- Searched for text patterns within files  
+
+---
+
+## Commands Used
+- `touch`  
+- `mkdir`  
+- `ls -l`  
+- `rm` / `rm -r`  
+- `rmdir`  
+- `mv`  
+- `cp` / `cp -r`  
+- `find`  
+- `grep -r`  
+
+---
+
+## Concepts / Notes
+
+### Creating Files and Directories
+- `touch filename` creates an empty file  
+- `mkdir dirname` creates a directory  
+- `ls -l` lists files in long format  
+
+### Removing Files and Directories
+- `rm file` removes a file  
+- `rm -r dir` removes a directory with its contents  
+- `rmdir dir` removes an **empty** directory  
+
+> 💡 **-r is recursive. I need to remember this for deleting full directories.**
+
+### Copying and Moving
+- `mv source dest` moves or renames  
+- `cp source dest` copies  
+- `cp -r sourcedir dest` copies directories recursively  
+
+### Finding Files and Directories
+- `find /path -name "pattern"`  
+- `find /path -type f` for files  
+- `find /path -type d` for directories  
+- `find /path -perm 644` for permissions  
+
+### Searching Inside Files
+- `grep pattern filename`  
+- `grep -r pattern /path` searches recursively  
+
+---
+
+## Key Takeaways
+- File and directory management is a core Linux skill  
+- `touch` and `mkdir` create files and folders  
+- `rm` removes files and `rm -r` removes directories  
+- `mv` can move or rename  
+- `cp -r` copies entire directory trees  
+- `find` and `grep` are powerful tools for searching  
+
+---
+
+## Reflection
+I feel more confident creating, modifying, and deleting files and directories. The part I struggle with is remembering to add `-r` when removing or copying directories. I know I will probably make this mistake in the future, but repetition will help. Every time I run into the problem, it will reinforce the habit. Learning these basics makes navigating Linux much easier and I can already see how these skills will help in real systems.
+
 
 ---
