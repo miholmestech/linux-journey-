@@ -80,19 +80,20 @@ This module helped me get comfortable using the terminal and navigating the file
 ---
 
 ## Objective
-[One or two sentences about the purpose]
+Learn how to create, view, and edit files from the command line using `nano`, `cat`, and output redirection.
 
 ---
 
 ## Summary
-[Short explanation of what the lab was, what was covered, what it introduced]
+This module introduced methods for working with files in Linux without a graphical editor. I practiced using the nano editor to create and update files, viewed file contents with cat, and used redirection operators to overwrite or append output to files. The exercises demonstrated how these tools fit into everyday Linux workflows.
 
 ---
 
 ## Tasks Completed
-- [x] Task 1  
-- [x] Task 2  
-- [x] Task 3  
+- Created and edited text files using `nano`  
+- Viewed the contents of files  
+- Appended and overwrote files using redirection  
+- Combined multiple files into a new file  
 
 ---
 
@@ -101,22 +102,25 @@ This module helped me get comfortable using the terminal and navigating the file
 nano
 cat
 date
+>
+>>
 ```
 
 ---
-
 ## Concepts / Notes
-[Important points, diagrams, directory structure, explanations]
+- `nano filename` creates or opens a file for editing  
+- `cat file` displays the content of a file  
+- `>` overwrites a file with new output  
+- `>>` appends new output to an existing file  
 
 ---
 
 ## Key Takeaways
-- Bullet 1  
-- Bullet 2  
-- Bullet 3  
+- Terminal-based editing is fast and efficient for small changes
+- Understanding > vs >> is important to avoid accidental overwrite
+- Nano is simple, beginner-friendly, and widely available on Linux systems
 
 ---
 
 ## Reflection
-[Short personal note about what you learned, how you felt, what improved]
-
+This module helped me gain a better understanding of file editing on the command line. I enjoyed creating and modifying files. Redirecting output still feels strange, but I can tell it will get easier with more practice. I can already see how these skills will be useful for notes, logs, and quick edits while working in Linux.
