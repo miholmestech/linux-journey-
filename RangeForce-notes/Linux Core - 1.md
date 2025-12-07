@@ -124,6 +124,7 @@ date
 
 ## Reflection
 This module helped me gain a better understanding of file editing on the command line. I enjoyed creating and modifying files. Redirecting output still feels strange, but I can tell it will get easier with more practice. I can already see how these skills will be useful for notes, logs, and quick edits while working in Linux.
+
 ---
 
 # Module 3: Linux File Management
@@ -209,6 +210,7 @@ This module explained how to navigate the Linux filesystem and operate on files 
 
 ## Reflection
 I feel more confident creating, modifying, and deleting files and directories. The part I struggle with is remembering to add `-r` when removing or copying directories. I know I will probably make this mistake in the future, but repetition will help. Every time I run into the problem, it will reinforce the habit. Learning these basics makes navigating Linux much easier and I can already see how these skills will help in real systems.
+
 
 ---
 
