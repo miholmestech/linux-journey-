@@ -1,5 +1,18 @@
+# RangeForce – Linux Core Path
+
+This file contains lab reflections and notes from the RangeForce Linux Core curriculum. Each module is documented with objectives, tasks, commands, takeaways, and personal reflections.
+
+---
+
+## Table of Contents
+- [Module: CLI Introduction](#module-cli-introduction)
+- [Module: Basic Linux File Editing](#module-basic-linux-file-editing)
+
+---
+
+# Module: CLI Introduction
+
 > **Platform:** RangeForce – Linux Core Path  
-> **Module:** CLI Introduction  
 > **Date:** 12-01-2025
 
 ---
@@ -24,7 +37,6 @@ A CLI allows users to interact with the computer using only the keyboard and com
 ---
 
 ## Commands Used
-
 ```bash
 ls
 pwd
@@ -36,8 +48,7 @@ cd ..
 ---
 
 ## Directory Structure (FHS)
-
-The **Filesystem Hierarchy Standard (FHS)** defines how Linux organizes files and directories. The module introduced the standard directory layout and the purpose of key locations:
+The **Filesystem Hierarchy Standard (FHS)** defines how Linux organizes files and directories. Key locations include:
 
 - `/` – root of the filesystem  
 - `/home` – user home directories  
@@ -45,12 +56,9 @@ The **Filesystem Hierarchy Standard (FHS)** defines how Linux organizes files an
 - `/var` – variable data like logs  
 - `/usr` – user tools and applications  
 
-Understanding this structure helps navigate and locate files from the command line.
-
 ---
 
 ## Key Takeaways
-
 - The terminal is efficient and powerful  
 - Commands are small programs that perform tasks  
 - You can navigate the system using keyboard only  
@@ -60,5 +68,55 @@ Understanding this structure helps navigate and locate files from the command li
 ---
 
 ## Reflection
-
 This module helped me get comfortable using the terminal and navigating the filesystem without relying on a graphical interface. It set a solid foundation for the rest of the Linux Core path.
+
+---
+
+# Module 2: Basic Linux File Editing
+
+> **Platform:** RangeForce – Linux Core Path  
+> **Date:** 12-01-2025
+
+---
+
+## Objective
+[One or two sentences about the purpose]
+
+---
+
+## Summary
+[Short explanation of what the lab was, what was covered, what it introduced]
+
+---
+
+## Tasks Completed
+- [x] Task 1  
+- [x] Task 2  
+- [x] Task 3  
+
+---
+
+## Commands Used
+```bash
+command
+command
+command
+```
+
+---
+
+## Concepts / Notes
+[Important points, diagrams, directory structure, explanations]
+
+---
+
+## Key Takeaways
+- Bullet 1  
+- Bullet 2  
+- Bullet 3  
+
+---
+
+## Reflection
+[Short personal note about what you learned, how you felt, what improved]
+
