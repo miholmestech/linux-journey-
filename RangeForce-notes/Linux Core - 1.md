@@ -98,9 +98,9 @@ This module helped me get comfortable using the terminal and navigating the file
 
 ## Commands Used
 ```bash
-command
-command
-command
+nano
+cat
+date
 ```
 
 ---
