@@ -410,7 +410,6 @@ System-wide:
 This module required more attention, especially when creating a persistent environment variable in `/etc/profile.d`. I had to remember how to open and edit files in nano, and how to place the full export command inside the file. This actually took more time than I expected. One thing I really appreciate about the Linux Core Pathway in RangeForce is that if I truly get stuck and have exhausted all hints, they allow me to see the solution. I was never completely stuck. I could always eventually find an answer. This helped reinforce how environment variables work and why persistence matters. Working through this made me feel more comfortable with PATH, exporting variables, and using nano in real situations.
 
 ---
----
 # Module 6: Linux Execution Context
 
 > **Platform:** RangeForce – Linux Core 1 Pathway        
@@ -483,3 +482,79 @@ Format:
 This module helped me understand how commands are affected by the user, system, and directory. It made me more aware of how important context is when running commands, especially when privileges are involved. I also practiced using both `sudo` and `sudo -i`, and I learned how to connect to remote systems with SSH. Being able to run commands on other machines from the terminal felt powerful, and I can see how this translates into real-world administration.
 
 ---
+---
+# Module 7: Basic Shell Scripting
+
+> **Platform:** RangeForce – Linux Core 1 Pathway        
+> **Date:** 12-05-2025
+
+---
+---
+
+## Objective
+Learn how to write simple shell scripts, add execution permissions, pass arguments, and automate repeated tasks from the command line.
+
+---
+
+## Summary
+This module introduced shell scripting as a way to automate repetitive command-line tasks. I learned how to write basic scripts, use arguments inside scripts, and make them executable. The assignment used a scenario where I worked at the “Sunset Library” and needed to create new library cards. Instead of typing the same commands repeatedly, writing a script simplified the task.
+
+---
+
+## Tasks Completed
+- Created and executed simple shell scripts  
+- Added the shebang (`#!/bin/sh`) to define the interpreter  
+- Used `chmod +x` to make scripts executable  
+- Ran scripts using `./script.sh`  
+- Passed arguments into scripts (using `$1`, `$@`)  
+- Automated the library card creation process with a custom script  
+
+---
+
+## Commands Used
+- `echo`
+- `chmod +x`
+- `./script.sh`
+- `#!/bin/sh`
+- Shell arguments: `$1`, `$2`, `$@`
+
+---
+
+## Concepts / Notes
+
+### What is a Shell Script?
+- A text file containing shell commands
+- Executed by the shell interpreter
+- Used to automate tasks
+
+### Shebang Line
+- First line in a script: `#!`
+- Declares the interpreter so the script runs like a binary
+- Declares the interpreter so the script runs like a binary
+
+  ### PATH Note
+- Current directory is not in PATH by default  
+- `./script.sh` tells the shell to execute from the working directory
+
+---
+
+### Automating Library Cards
+- Final assignment: create a script that generates library cards and accepts the card ID as an argument  
+- This saved time by avoiding repeated manual typing
+
+---
+
+## Key Takeaways
+- Shell scripts automate repetitive commands  
+- The shebang (`#!/bin/sh`) defines the interpreter  
+- Scripts must be given execute permissions with `chmod +x`  
+- Arguments allow scripts to change behavior dynamically  
+- Using scripts reduces errors and saves time  
+
+---
+
+## Reflection
+I really enjoyed this module because it made the idea of automation clear. The “Sunset Library” example helped me see how scripting saves time by avoiding repeated commands. It was fun to revisit “Hello world” and work with arguments like `$1` again — it reminded me of earlier modules and my command line book. Creating a script to generate library cards made the task feel realistic, and it helped me understand how scripts can be used in everyday system administration.
+
+
+
