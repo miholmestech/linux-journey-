@@ -4,9 +4,20 @@ This file contains lab reflections and notes from the RangeForce Linux Core curr
 
 ---
 
-## Table of Contents
-- [Module: CLI Introduction](#module-cli-introduction)
-- [Module: Basic Linux File Editing](#module-basic-linux-file-editing)
+<details>
+<summary>Table of Contents</summary>
+
+- [Module 1: CLI Introduction](#module-1-cli-introduction)
+- [Module 2: Basic Linux File Editing](#module-2-basic-linux-file-editing)
+- [Module 3: Linux File Management](#module-3-linux-file-management)
+- [Module 4: Linux File Permissions and Ownership](#module-4-linux-file-permissions-and-ownership)
+- [Module 5: Linux Environment Variables](#module-5-linux-environment-variables)
+- [Module 6: Linux Execution Context](#module-6-linux-execution-context)
+- [Module 7: Basic Shell Scripting](#module-7-basic-shell-scripting)
+- [Module 8: Linux I/O Redirection](#module-8-linux-io-redirection)
+
+</details>
+
 
 ---
 
