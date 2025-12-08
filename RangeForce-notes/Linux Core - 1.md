@@ -643,5 +643,11 @@ This module was short but very valuable. I finally understood how standard strea
 
 ---
 
+## Core 1 Completed
+
+This completes the Linux Core 1 pathway. I learned foundational skills in navigation, permissions, file management, scripting, and I/O redirection. These skills will support my continued growth in Linux and cybersecurity.
+
+> Favorite concept from Core 1: the pipe (`|`)
+
 
 
