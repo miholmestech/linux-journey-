@@ -75,7 +75,7 @@ This module helped me get comfortable using the terminal and navigating the file
 # Module 2: Basic Linux File Editing
 
 > **Platform:** RangeForce – Linux Core 1 Pathway     
-> **Date:** 12-01-2025
+> **Date:** 12-02-2025
 
 ---
 
@@ -217,7 +217,7 @@ I feel more confident creating, modifying, and deleting files and directories. T
 # Module 4: Linux File Permissions and Ownership 
 
 > **Platform:** RangeForce – Linux Core 1 Pathway         
-> **Date:** 12-02-2025
+> **Date:** 12-03-2025
 
 ---
 
@@ -408,5 +408,78 @@ System-wide:
 
 ## Reflection
 This module required more attention, especially when creating a persistent environment variable in `/etc/profile.d`. I had to remember how to open and edit files in nano, and how to place the full export command inside the file. This actually took more time than I expected. One thing I really appreciate about the Linux Core Pathway in RangeForce is that if I truly get stuck and have exhausted all hints, they allow me to see the solution. I was never completely stuck. I could always eventually find an answer. This helped reinforce how environment variables work and why persistence matters. Working through this made me feel more comfortable with PATH, exporting variables, and using nano in real situations.
+
+---
+---
+# Module 6: Linux Execution Context
+
+> **Platform:** RangeForce – Linux Core 1 Pathway        
+> **Date:** 12-04-2025
+
+---
+
+## Objective
+Understand execution contexts in Linux, including users, systems, directories, privileges, and remote command execution.
+
+---
+
+## Summary
+This module introduced how Linux runs commands based on which user is logged in, which system is being accessed, and which directory the shell is operating in. I learned how to identify the current user, host, and working directory, and how these affect file operations. The module also covered privileges, sudo usage, and how to execute commands on remote systems through SSH.
+
+---
+
+## Tasks Completed
+- Used CLI to view system context  
+- Identified current user with `whoami` and `id`  
+- Viewed hostname and system identity  
+- Navigated directories using `cd`, `pwd`, and path shortcuts  
+- Observed prompt structure and execution context  
+- Used `sudo` for elevated commands  
+- Opened a privileged root session with `sudo -i`  
+- Connected to remote systems using SSH  
+- Executed remote commands, including privileged ones  
+
+---
+
+## Commands Used
+- `whoami`
+- `id`
+- `hostname`
+- `pwd`
+- `cd`, `cd ..`, `cd ~`
+- `sudo <command>`
+- `sudo -i`
+- `exit`
+- `ssh user@server`
+- `ssh user@server "<command>"`
+---
+
+## Concepts / Notes
+
+### Execution Context
+- Linux runs commands within a specific context:
+  - which **user**
+  - on which **system**
+  - from which **directory**
+
+### Command Prompt
+Format:
+- Execute a command remotely:
+- Can combine with `sudo` for root tasks
+
+---
+
+## Key Takeaways
+- Execution context depends on user, system, and directory
+- The prompt shows username, hostname, and current path
+- Always be aware of the current directory before running commands
+- `sudo` grants temporary privileges for system tasks
+- `sudo -i` opens a root session — use carefully
+- SSH allows remote login and remote command execution
+
+---
+
+## Reflection
+This module helped me understand how commands are affected by the user, system, and directory. It made me more aware of how important context is when running commands, especially when privileges are involved. I also practiced using both `sudo` and `sudo -i`, and I learned how to connect to remote systems with SSH. Being able to run commands on other machines from the terminal felt powerful, and I can see how this translates into real-world administration.
 
 ---
