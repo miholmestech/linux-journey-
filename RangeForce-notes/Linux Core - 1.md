@@ -479,7 +479,7 @@ Format:
 ---
 
 ## Reflection
-This module helped me understand how commands are affected by the user, system, and directory. It made me more aware of how important context is when running commands, especially when privileges are involved. I also practiced using both `sudo` and `sudo -i`, and I learned how to connect to remote systems with SSH. Being able to run commands on other machines from the terminal felt powerful, and I can see how this translates into real-world administration.
+This module helped me understand how commands are affected by the user, system, and directory. It made me more aware of how important context is when running commands, especially when privileges are involved. I also practiced using both `sudo` and `sudo -i`, and I learned how to connect to remote systems with SSH. Being able to run commands on other machines from the terminal felt powerful, and I can see how this translates into real-world administration. 
 
 ---
 # Module 7: Basic Shell Scripting
@@ -553,6 +553,7 @@ This module introduced shell scripting as a way to automate repetitive command-l
 
 ## Reflection
 I really enjoyed this module because it made the idea of automation clear. The “Sunset Library” example helped me see how scripting saves time by avoiding repeated commands. It was fun to revisit “Hello world” and work with arguments like `$1` again — it reminded me of earlier modules and my command line book. Creating a script to generate library cards made the task feel realistic, and it helped me understand how scripts can be used in everyday system administration.
+
 ---
 # Module 8: Linux I/O Redirection
 
