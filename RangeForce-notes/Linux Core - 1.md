@@ -553,6 +553,84 @@ This module introduced shell scripting as a way to automate repetitive command-l
 
 ## Reflection
 I really enjoyed this module because it made the idea of automation clear. The “Sunset Library” example helped me see how scripting saves time by avoiding repeated commands. It was fun to revisit “Hello world” and work with arguments like `$1` again — it reminded me of earlier modules and my command line book. Creating a script to generate library cards made the task feel realistic, and it helped me understand how scripts can be used in everyday system administration.
+---
+# Module 8: Linux I/O Redirection
+
+> **Platform:** RangeForce – Linux Core 1 Pathway        
+> **Date:** 12-05-2025
+
+---
+
+## Objective
+Learn how standard streams work in Linux and how to redirect them, combine them, append to files, and use pipes, here documents, and here strings.
+
+---
+
+## Summary
+This final module introduced how input and output streams work in Linux. I learned how to redirect standard output (stdout), standard error (stderr), and standard input (stdin) to files or other commands. I also learned how to use pipes to connect commands together, and how here documents and here strings feed input directly into commands. Even though it was a short module, it covered powerful concepts that are used constantly in real Linux work.
+
+---
+
+## Tasks Completed
+- Identified standard streams (`stdin`, `stdout`, `stderr`)  
+- Redirected `stdout` using `>`  
+- Redirected `stderr` using `2>`  
+- Redirected `stdin` using `<`  
+- Appended output to files using `>>` and `2>>`  
+- Combined output streams with `2>&1` and `&>`  
+- Used pipes (`|`) to pass output between commands  
+- Experimented with here documents (`<<`)  
+- Used here strings (`<<<`) with commands  
+
+---
+
+## Commands Used
+- `echo`
+- `>` / `>>`
+- `2>` / `2>>`
+- `2>&1`
+- `&>`
+- `<`
+- `|` (pipe)
+- `<<` (here document)
+- `<<<` (here string)
+- `sort`, `cut`, `head`
+
+---
+
+## Concepts / Notes
+
+### Standard Streams
+- `stdin` (0) — standard input  
+- `stdout` (1) — standard output  
+- `stderr` (2) — standard error  
+
+Output normally goes to the screen, but streams can be redirected.
+
+---
+
+## Key Takeaways
+- Linux uses three standard streams:
+  - `stdin` (input)
+  - `stdout` (output)
+  - `stderr` (errors)
+- Streams can be redirected using:
+  - `>` for output
+  - `2>` for errors
+  - `<` for input
+- `>>` appends to a file instead of overwriting
+- `2>&1` sends stderr to the same destination as stdout
+- Pipes (`|`) connect commands together
+- Here documents (`<<`) can send multiple lines of text into a command
+- Here strings (`<<<`) send a single string into a command
+- Order of redirection matters because bash evaluates from left to right
+
+---
+
+## Reflection
+This module was short but very valuable. I finally understood how standard streams work and why redirecting them is so powerful. I want to revisit `2>&1` because combining streams seems important and I want to make sure I use it confidently. Pipes were especially interesting — I liked seeing how different commands can be connected to produce a result. Even though this was the last module in Core 1, it gave me a strong foundation for working with output and redirection in Linux.
+
+---
 
 
 
