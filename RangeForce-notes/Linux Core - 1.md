@@ -482,13 +482,11 @@ Format:
 This module helped me understand how commands are affected by the user, system, and directory. It made me more aware of how important context is when running commands, especially when privileges are involved. I also practiced using both `sudo` and `sudo -i`, and I learned how to connect to remote systems with SSH. Being able to run commands on other machines from the terminal felt powerful, and I can see how this translates into real-world administration.
 
 ---
----
 # Module 7: Basic Shell Scripting
 
 > **Platform:** RangeForce – Linux Core 1 Pathway        
 > **Date:** 12-05-2025
 
----
 ---
 
 ## Objective
