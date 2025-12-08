@@ -3,9 +3,9 @@
 This file contains lab reflections and notes from the RangeForce Linux Core curriculum. Each module is documented with objectives, tasks, commands, takeaways, and personal reflections.
 
 ---
-
+## Table of Contents
 <details>
-<summary>Table of Contents</summary>
+<summary>Click to expand</summary>
 
 - [Module 1: CLI Introduction](#module-1-cli-introduction)
 - [Module 2: Basic Linux File Editing](#module-2-basic-linux-file-editing)
@@ -17,7 +17,6 @@ This file contains lab reflections and notes from the RangeForce Linux Core curr
 - [Module 8: Linux I/O Redirection](#module-8-linux-io-redirection)
 
 </details>
-
 
 ---
 
