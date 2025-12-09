@@ -1,6 +1,8 @@
 # Linux Journey 📘
 
 This repository documents my learning and hands-on practice with Linux.
+This repo might look a little empty right now, but I’m working on it every day.
+I love learning in public and I’m excited to fill this up as I go.☺️
 
 ## What I'm Doing
 
