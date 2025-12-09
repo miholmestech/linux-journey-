@@ -33,16 +33,16 @@ User management is a core responsibility of a system administrator. With elevate
 ---
 ## Commands Used
 ```bash
-adduser 
-getent passwd 
-usermod -s /bin/dash 
-id
-deluser --remove-home
-passwd -S
-passwd -l 
-usermod -L 
-passwd -u
-passwd -S
+adduser junior
+getent passwd junior
+usermod -s /bin/dash junior
+id maria
+deluser --remove-home maria
+passwd -S anna
+passwd -l anna
+usermod -L anna
+passwd -u angela
+passwd -S angela
 ```
 ---
 
@@ -56,9 +56,13 @@ passwd -S
 
 ### Shells
 - User shells can be viewed with:
-  ```bash
-  getent passwd username
-`usermod -s` /path/to/shell username
+  
+    getent passwd username
+
+- Shells can be changed with:
+
+    usermod -s /path/to/shell username
+
 ### Groups 
 - Every user has a primary group
 - Additional secondary groups provide access to shared resources
