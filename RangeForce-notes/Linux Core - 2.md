@@ -82,3 +82,10 @@ This module made me feel like I had real control inside the terminal. Being able
 It wasn’t just typing commands it was making decisions about system access. I enjoyed seeing how much authority a system administrator has and how quickly the environment can be customized. This lab helped me understand the responsibility behind managing users and it made the terminal feel less abstract and more like a tool I could use with purpose. 
 
 ---
+
+# Module 2: Linux Software Management
+
+> **Platform:** RangeForce – Linux Core 2 Pathway  
+> **Date:** 12-09-2025
+
+---
