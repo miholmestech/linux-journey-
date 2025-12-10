@@ -173,7 +173,7 @@ apt-get dist-upgrade
 ---
 
 ## Reflection
-This module hit me in a personal way because it explained so many things that confused me early in my Linux journey. When I first tried to learn Linux, I didn’t realize that different distributions used different package managers, different repositories, different dependencies — and that updates could break things if the right packages weren’t installed. I was trying to learn Linux while taking exams and working full-time, and I never had the time to sit down and understand what was actually happening under the hood.
+This module hit me in a personal way because it explained so many things that confused me early in my Linux journey. When I first tried to learn Linux, I didn’t realize that different distributions used different package managers, different repositories, different dependencies and that updates could break things if the right packages weren’t installed. I was trying to learn Linux while taking exams and working full-time, and I never had the time to sit down and understand what was actually happening under the hood.
 
 Seeing how APT works finally made all of that make sense. Installing packages, fixing broken dependencies, and upgrading software showed me why things kept breaking before not because I was doing something wrong, but because Linux really does depend on matching the right packages and versions. This module made software management helped me understand why the distro you choose matters.
 
