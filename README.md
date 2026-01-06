@@ -6,11 +6,11 @@ I love learning in public and I’m excited to fill this up as I go.☺️
 
 ## What I'm Doing
 
-- Reading Linux books
+- Reading The Linux Command Line: A Complete Introduction
 - Practicing commands
 - Working through RangeForce modules
 
-## Structure
+## Folder Structure
 
 - RangeForce-notes/
 - The Linux Command Line: A Complete Introduction/
@@ -19,9 +19,11 @@ More folders will be added as I go.
 
 ## Goals
 
-- Build confidence using Linux
-- Understand the command line deeply
-- Document everything I learn
+- Build confidence using Linux.
+- Understand the command line deeply.
+- Document everything I learn.
+- Core 4
+- SIEM lab setup
   
 ## Projects Table
 
