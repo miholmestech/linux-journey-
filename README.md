@@ -22,10 +22,11 @@ More folders will be added as I go.
 - Build confidence using Linux
 - Understand the command line deeply
 - Document everything I learn
+  
+## Projects Table
 
-## Learning Projects
+| Project | Link |
+|---------|------|
+| RangeForce Notes | [Cores 1-6](./RangeForce-notes/) [memory:15] |
+| Linux CLI (Shotts) | [Ch. 20 Mastery](./The%20Linux%20Command%20Line:%20A%20Complete%20Introduction/Linux-CLI-SOC.md) |
 
-| Project | Description | Status |
-|---------|-------------|--------|
-| [RangeForce Linux Cores](RangeForce-notes/) | Hands-on SOC Linux modules 1-6 | Cores 1-3 complete [memory:15] |  
-| [CLI Mastery (Shotts)](The Linux Command Line: A Complete Introduction/Linux-CLI-SOC.md) | Ch. 20 text processing + Kali zsh demos | 55% (Ch. 1-20) |
