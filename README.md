@@ -28,4 +28,4 @@ More folders will be added as I go.
 | Project | Description | Status |
 |---------|-------------|--------|
 | [RangeForce Linux Cores](RangeForce-notes/) | Hands-on SOC Linux modules 1-6 | Cores 1-3 complete [memory:15] |  
-| [CLI Mastery (Shotts)](The%20Linux%20Command%20Line.../Linux-CLI-SOC.md) | Ch. 20 text processing + Kali zsh demos | 55% (Ch. 1-20) |
+| [CLI Mastery (Shotts)](The Linux Command Line: A Complete Introduction/Linux-CLI-SOC.md) | Ch. 20 text processing + Kali zsh demos | 55% (Ch. 1-20) |
