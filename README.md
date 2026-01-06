@@ -30,3 +30,7 @@ More folders will be added as I go.
 | RangeForce Notes | [Cores 1-6](./RangeForce-notes/) [memory:15] |
 | Linux CLI (Shotts) | [Ch. 20 Mastery](./The%20Linux%20Command%20Line:%20A%20Complete%20Introduction/Linux-CLI-SOC.md) |
 
+
+[![CLI Progress](https://img.shields.io/badge/Linux_CLI-Ch._1-20_%2555%25-complete-green?style=flat&logo=gnu-bash)](The%20Linux%20Command%20Line:%20A%20Complete%20Introduction/Linux-CLI-SOC.md)
+
+
