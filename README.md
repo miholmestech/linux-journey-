@@ -27,7 +27,7 @@ More folders will be added as I go.
 
 | Project | Link |
 |---------|------|
-| RangeForce Notes | [Cores 1-6](./RangeForce-notes/) [memory:15] |
+| RangeForce Notes | [Cores 1-6](./RangeForce-notes/) 
 | Linux CLI (Shotts) | [Ch. 20 Mastery](./The%20Linux%20Command%20Line:%20A%20Complete%20Introduction/Linux-CLI-SOC.md) |
 
 
