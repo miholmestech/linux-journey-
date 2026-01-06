@@ -31,3 +31,8 @@ More folders will be added as I go.
 | Linux CLI (Shotts) | [Ch. 20 Mastery](./The%20Linux%20Command%20Line:%20A%20Complete%20Introduction/Linux-CLI-SOC.md) |
 
 
+[![CLI Progress](https://img.shields.io/badge/Ch1-20-green)](https://github.com/miholmestech/linux-journey-/blob/main/The%20Linux%20Command%20Line:%20A%20Complete%20Introduction/Linux-CLI-SOC.md)
+[![RangeForce](https://img.shields.io/badge/Cores1-3-blue)](https://github.com/miholmestech/linux-journey-/blob/main/RangeForce-notes/)
+
+
+
